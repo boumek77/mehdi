@@ -1,0 +1,51 @@
+ul {list-style-type: none;}
+li{display: inline;}
+ul{text-align: right;}
+section{text-align: center;}
+footer {position: absolute;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; box-sizing: border-box;
+    line-height: 0px;
+    
+}
+/* code incluant tout le corps*/
+
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.connexion{
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+.bouton1
+[type=submit]:active{
+ box-shadow:1px 1px 1px inset;
+}
+
+.bouton2
+[type=submit]:active{
+ box-shadow:1px 1px 1px inset;
+}
+
+
+.search{
+    display: inline-block;
+    text-align:center;
+    background-size: 34px;
+    padding-left: 10px;
+    width: 50%;
+}
+
+
